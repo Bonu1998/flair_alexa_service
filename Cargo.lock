@@ -653,7 +653,7 @@ dependencies = [
 [[package]]
 name = "flair_alexa_wrapper"
 version = "0.1.0"
-source = "git+https://github.com/Bonu1998/flair_alexa_wrapper.git?branch=latest#d96dd82360438281377170d900eb5f10f1b6b56b"
+source = "git+https://github.com/Bonu1998/flair_alexa_wrapper.git?branch=latest#19b64e2646599628709d4ecdeb6108f4cbb9ccab"
 dependencies = [
  "alexa-verifier",
  "bincode",
@@ -1523,7 +1523,7 @@ dependencies = [
 [[package]]
 name = "mvp"
 version = "0.1.0"
-source = "git+https://github.com/Bonu1998/mvp.git?branch=latest#9ce0f3f96576204f367b0fa7089acd2604f53b85"
+source = "git+https://github.com/Bonu1998/mvp.git?branch=latest#332ca2b172278ecd300df9af92c4580632c2c016"
 dependencies = [
  "flair_general_utils",
  "flair_types",
