@@ -626,7 +626,7 @@ dependencies = [
 [[package]]
 name = "flair_alexa_sdk"
 version = "0.1.0"
-source = "git+https://github.com/Bonu1998/flair_alexa_sdk.git?branch=latest#478d126899e5a0f054b264cce3d81b9cae9dd64e"
+source = "git+https://github.com/Bonu1998/flair_alexa_sdk.git?branch=latest#6542cd9860031431420c53f9df9bad2423ed5547"
 dependencies = [
  "log",
  "serde",
@@ -653,7 +653,7 @@ dependencies = [
 [[package]]
 name = "flair_alexa_wrapper"
 version = "0.1.0"
-source = "git+https://github.com/Bonu1998/flair_alexa_wrapper.git?branch=latest#a6b6a6cc0c995c66a10f575c964fabea092d1256"
+source = "git+https://github.com/Bonu1998/flair_alexa_wrapper.git?branch=latest#d96dd82360438281377170d900eb5f10f1b6b56b"
 dependencies = [
  "alexa-verifier",
  "bincode",
