@@ -1,0 +1,20 @@
+[package]
+name = "flair_alexa_service"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rocket = { version = "0.5.0-rc.2", features = ["json"] }
+reqwest = { version = "0.11.11", features = ["blocking", "json"] }
+serde_json = { version = "1.0.81" }
+serde = { version = "1.0.137", features = ["derive"] }
+dotenv = { version = "0.15.0" }
+mysql = "22.2.0"
+
+flair_alexa_sdk = { git = "https://github.com/Bonu1998/flair_alexa_sdk.git", branch = "latest"}
+flair_types = { git = "https://github.com/Bonu1998/flair_types.git", branch = "latest"}
+flair_alexa_wrapper = { git = "https://github.com/Bonu1998/flair_alexa_wrapper.git", branch = "latest"}
+flair_general_utils = { git = "https://github.com/Bonu1998/flair_general_utils.git", branch = "latest"}
+mvp = { git = "https://github.com/Bonu1998/mvp.git", branch = "latest"}

@@ -1,0 +1,27 @@
+[default]
+address = "127.0.0.1"
+port = 8000
+workers = 16 #[number of CPUs * 2]
+max_blocking = 512
+keep_alive = 5
+ident = "FlairAlexa" # used to identify on server
+log_level = "normal" # log_level : critical , normal && debug
+# temp_dir = "/tmp"
+cli_colors = true
+# secret_key = ""
+
+[default.limits]
+form = "64 kB"
+json = "1 MiB"
+msgpack = "2 MiB"
+"file/jpg" = "5 MiB"
+
+[default.tls]
+# certs = "path/to/cert-chain.pem"
+# key = "path/to/key.pem"
+
+[default.shutdown]
+ctrlc = true
+signals = ["term", "hup"]
+grace = 5
+mercy = 5
